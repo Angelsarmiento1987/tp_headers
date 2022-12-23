@@ -1,0 +1,64 @@
+*{
+    margin:0;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    border: 1px solid black;
+    
+}
+.contHeader{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+width: 10rem;
+
+}
+a{
+padding: 1rem;
+text-decoration: none;
+color: black;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+button{
+    background-color: #5E5FF5;
+    border-radius: 5px;
+    padding: 0.5rem;
+    padding-inline: 1rem;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0px;
+    cursor: pointer;
+
+}
+
+
+/*navegador 2*/
+::placeholder{/*esta fuente la ofrece fontawesome para que funcione el logo que colocamos en el HTML*/
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600; 
+    content: "\f007";
+    padding: 1rem;
+}
+.search{
+   
+    width: 25vw;
+    height: 4vh;
+
+}
+
+.fotoPerfil{
+    width: 3rem;
+    border-radius: 30px;
+}
+.register{
+    display: flex;
+    align-items: center;
+}
